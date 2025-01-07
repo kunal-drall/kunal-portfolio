@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
-import Link from 'next/link'
 
 export default function ContactAndFooter() {
   return (

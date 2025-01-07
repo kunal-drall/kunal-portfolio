@@ -11,18 +11,6 @@ export default function SpotifyPlaylist() {
       className="w-full h-full"
     >
       <div className="space-y-4 mt-[70px]"> {/* Added margin-top to align with stack card */}
-        {/* Static DateTime Display */}
-        <div className="space-y-2">
-          <div>
-            <p className="text-sm text-gray-400">Current Date and Time (UTC)</p>
-            <p className="font-mono text-purple-400">2025-01-07 10:20:32</p>
-          </div>
-          <div>
-            <p className="text-sm text-gray-400">Current User's Login</p>
-            <p className="font-mono text-purple-400">kunal-drall</p>
-          </div>
-        </div>
-
         {/* Spotify Playlist */}
         <iframe
           src="https://open.spotify.com/embed/playlist/7nntcJHAnSkO5Zg0fkct3U?utm_source=generator"
